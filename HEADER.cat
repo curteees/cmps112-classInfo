@@ -1,0 +1,39 @@
+
+http://www2.ucsc.edu/courses/cmps112-wm/:/
+/afs/cats.ucsc.edu/courses/cmps112-wm
+. Thu Feb  8. ASG 2 DUE.     http:Assignments/asg2-ocaml-dc/
+. Tue Feb 13. MIDTERM TEST.  http:Old-Exams/
+. Mon Feb 19. Holiday - Presidents day.
+. Mon Feb 26. ASG 3 DUE.     http:Assignments/asg3-*
+. Wed Mar 14. ASG 4 DUE.     http:Assignments/asg4-*
+. Fri Mar 16. End instruction.
+. Mon Mar 19. FINAL EXAM.    http:Old-Exams/ 7:30pm--9:30pm
+. Wed Mar 28. Grades due.
+HEADER: HEADER.cat
+README: Readme.all.cmps112.txt,v 1.151 2018-01-24 13:14:38-08
+Lectures: Syllabus/README.txt
+
++----------+----------+----------+----------+----------+----------+----------+
+|          |Mon Feb  5|Tue Feb  6|Wed Feb  7|Thu Feb  8|Fri Feb  9|Sat Feb 10|
+|          |          |          |          |ASG 2 DUE |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|Sun Feb 11|Mon Feb 12|Tue Feb 13|Wed Feb 14|Thu Feb 15|Fri Feb 16|Sat Feb 17|
+|          |          |MIDTERM TE|          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|Sun Feb 18|Mon Feb 19|Tue Feb 20|Wed Feb 21|Thu Feb 22|Fri Feb 23|Sat Feb 24|
+|          |Holiday - |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|Sun Feb 25|Mon Feb 26|Tue Feb 27|Wed Feb 28|Thu Mar  1|Fri Mar  2|Sat Mar  3|
+|          |ASG 3 DUE |          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|Sun Mar  4|Mon Mar  5|Tue Mar  6|Wed Mar  7|Thu Mar  8|Fri Mar  9|Sat Mar 10|
++----------+----------+----------+----------+----------+----------+----------+
+|Sun Mar 11|Mon Mar 12|Tue Mar 13|Wed Mar 14|Thu Mar 15|Fri Mar 16|Sat Mar 17|
+|          |          |          |ASG 4 DUE |          |End instru|          |
++----------+----------+----------+----------+----------+----------+----------+
+|Sun Mar 18|Mon Mar 19|Tue Mar 20|Wed Mar 21|Thu Mar 22|Fri Mar 23|Sat Mar 24|
+|          |FINAL EXAM|          |          |          |          |          |
++----------+----------+----------+----------+----------+----------+----------+
+|Sun Mar 25|Mon Mar 26|Tue Mar 27|Wed Mar 28|          |          |          |
+|          |          |          |Grades due|          |          |          |
++----------+----------+----------+----------+----------+----------+----------+

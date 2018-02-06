@@ -1,0 +1,72 @@
+# $Id: .htaccess,v 1.4 2017-10-12 13:55:29-07 - - $
+
+AuthUserFile /afs/cats.ucsc.edu/courses/cmps112-wm/.htpasswd
+AuthType Basic
+AuthName "cmps112-wm"
+
+#<Limit GET POST PUT>
+Satisfy any
+Order Deny,Allow
+Deny from all
+Allow from ucsc.edu
+Require valid-user
+#</Limit>
+
+#Options All
+AddIcon /icons/ball.red.gif ..
+DirectoryIndex index.html .index
+HeaderName HEADER.html
+ReadmeName README
+
+IndexOptions DescriptionWidth=*
+IndexOptions FancyIndexing
+IndexOptions FoldersFirst
+IndexOptions IconHeight=8
+IndexOptions IconWidth=16
+IndexOptions IconsAreLinks
+IndexOptions NameWidth=*
+IndexOptions ScanHTMLTitles
+IndexOptions SuppressHTMLPreamble
+IndexOrderDefault Ascending Name
+
+AddDescription "ASCII text file"     .cat
+AddDescription "ASCII text file"     .tt
+AddDescription "ASCII text file"     .tt
+AddDescription "ASCII text file"     .txt
+AddDescription "Bison grammar"       .y
+AddDescription "C code"              .c
+AddDescription "C header"            .h
+AddDescription "C++ code"            .cc
+AddDescription "C++ code"            .cpp
+AddDescription "C++ code"            .cxx
+AddDescription "C++ template code"   .tcc
+AddDescription "Flex scanner"        .l
+AddDescription "HTML file"           .html
+AddDescription "Java class file"     .class
+AddDescription "Java jar file"       .jar
+AddDescription "Java source code"    .java
+AddDescription "Makefile"            Makefile
+AddDescription "Object file"         .o
+AddDescription "PDF document"        .pdf
+AddDescription "Perl program"        .perl
+AddDescription "Postscript document" .ps
+AddDescription "Revision Control"    RCS
+AddDescription "Shell script"        .sh
+AddDescription "Unix Makefile"       Makefile
+AddDescription "groff -mm markup"    .mm
+AddDescription "man page"            .man
+
+AddType text/html  .index
+AddType text/plain .man
+AddType text/plain .mm
+AddType text/plain .sh
+AddType text/plain .tt
+AddType text/plain HEADER
+AddType text/plain README
+
+DefaultType text/plain
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} ^.+/[0-9]+$
+RewriteRule .* - [T=text/plain]
+
